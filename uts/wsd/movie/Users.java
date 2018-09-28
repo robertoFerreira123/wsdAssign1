@@ -38,4 +38,13 @@ public class Users implements Serializable {
                 return user;
         return null;
     }
+    
+    public User getUser(String email) {
+		for (User user : list) {
+			if (user.getEmail().equals(email)) {
+				return user; // Login correct. Return this user.
+			} 
+		}
+		return null;
+	}
 }
