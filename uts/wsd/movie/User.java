@@ -22,7 +22,7 @@ public class User implements Serializable{
     @XmlElement(name = "password")
     private String password;
     @XmlElement(name = "phoneNo")
-    private int phoneNo;
+    private String phoneNo;
     @XmlElement(name = "address")
     private String address;
     
