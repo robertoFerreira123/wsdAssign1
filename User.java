@@ -70,11 +70,11 @@ public class User implements Serializable{
         this.password = password;
     }
 
-    public int getPhoneNo() {
+    public String getPhoneNo() {
         return phoneNo;
     }
 
-    public void setPhoneNo(int phoneNo) {
+    public void setPhoneNo(String phoneNo) {
         this.phoneNo = phoneNo;
     }
 
